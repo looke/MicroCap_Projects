@@ -1,0 +1,141 @@
+********************************************************************************
+***                            Micro-Cap 9.0.7.0                             ***
+***                                  looke                                   ***
+***                                 spiride                                  ***
+***                    Dynamic AC of KingCello_AMP_Buffer                    ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+AC Voltages at Frequency=1e+006 (Mag, Degrees)
+==============================================
+Node               Voltage  Node               Voltage 
+INPUT        1000m,-2.699u  2        999.856m,-14.701m 
+3        999.944m,-12.298m  4         25.276m,-168.572 
+5        997.714m,-12.161m  6          25.324m,-170.82 
+7        997.915m,-14.514m  8           7.06m,-142.576 
+9          7.435m,-135.431  10          1.633m,-20.301 
+11          1.534m,-17.285  12                     0,0 
+13         7.015m,-142.168  14                     0,0 
+15         7.407m,-135.036  OUTPUT     4.823m,-138.911 
+
+
+AC values for Diode (Mag, Degrees)
+==================================
+Instance:                      D1                   D2
+Using model:             $GENERIC             $GENERIC
+
+AC Power Terms:
+PD                 2.219u,-40.602        2.011u,-34.57
+PS                  9.321n,49.158        8.337n,55.184
+
+AC Pin Currents:
+Id                  1.359m,159.94        1.31m,-17.047
+
+
+
+AC values for Bipolar Junction Transistors NPN (Mag, Degrees)
+=============================================================
+Instance:                      Q1                   Q4
+Using model:              MPS8099               2N5685
+
+AC Power Terms:
+PD              392.738u,534.465m      871.323n,79.425
+PS                 13.583u,90.535    556.906n,-175.233
+
+AC Pin Currents:
+Ib                 22.175u,75.394      822.445u,34.577
+Ic               1.948m,-617.104m       1.304m,-32.091
+Ie                1.953m,-179.986       1.796m,172.776
+Is                            0,0                  0,0
+
+
+
+AC values for Bipolar Junction Transistors PNP (Mag, Degrees)
+=============================================================
+Instance:                      Q2                   Q3
+Using model:              MPS8599               2N5684
+
+AC Power Terms:
+PD               391.17u,420.768m      784.509n,36.032
+PS                 17.274u,90.422       1.345u,175.323
+
+AC Pin Currents:
+Ib                 29.422u,60.667       799.19u,28.771
+Ic               1.939m,-739.597m       1.165m,-26.611
+Ie                1.954m,-179.982       1.747m,175.499
+Is                            0,0                  0,0
+
+
+
+AC values for Resistor (Mag, Degrees)
+=====================================
+Instance:                       R1                   R2                   R3
+Using model:                 C6_5%                C6_5%                C6_5%
+
+AC Power Terms:
+PD                  8.656n,121.333       4.917n,150.787       37.614u,-1.479
+
+AC Pin Currents:
+Ir                  29.422u,60.667     22.175u,-104.606     1.939m,-739.597m
+
+
+Instance:                       R4                   R5                   R6
+Using model:                 C6_5%                C6_5%                C6_5%
+
+AC Power Terms:
+PD                  37.945u,-1.234        1.947m,36.07m        1.946m,28.08m
+
+AC Pin Currents:
+Ir                1.948m,-617.104m      1.954m,-179.982      1.953m,-179.986
+
+
+Instance:                       R7                   R8                   R9
+Using model:                 C6_5%                C6_5%                C6_5%
+
+AC Power Terms:
+PD                695.907n,101.882      514.722n,59.227        6.764u,69.155
+
+AC Pin Currents:
+Ir                 263.801u,50.941    226.875u,-150.386    822.445u,-145.423
+
+
+Instance:                      R10                RS_V3                  R11
+Using model:                 C6_5%                  N\A                C6_5%
+
+AC Power Terms:
+PD                   6.387u,57.542       2.619p,133.981        2.326u,82.178
+
+AC Pin Currents:
+Ir                799.19u,-151.229       51.18u,-113.01       482.25u,41.089
+
+
+
+AC values for Sine Source (Mag, Degrees)
+========================================
+Instance:                       V3
+Using model:               GENERAL
+
+AC Power Terms:
+PG                    51.18u,66.99
+
+AC Pin Currents:
+ISource             51.18u,-113.01
+
+
+
+AC values for SPICE Source (Mag, Degrees)
+=========================================
+Instance:                      V1                   V2
+
+AC Power Terms:
+PG                            0,0                  0,0
+
+AC Pin Currents:
+ISource           284.404u,52.766     252.24u,-146.934
+
+
