@@ -14,14 +14,14 @@ Temperature=27
 DC Operating Point Voltages
 ===========================
 Node         Voltage  Node         Voltage  Node         Voltage 
-INPUT         8.317n  2           248.771u  3          -165.587u 
-4           261.719m  5          -644.999m  6          -316.141m 
-7           652.818m  8          -352.535m  9           301.755m 
-10          840.064m  11         -850.429m  12          -25.000  
-13         -848.777m  14           25.000   15          834.808m 
-OUTPUT      -16.927m  17           23.696   18           24.347  
-19           24.348   20          -23.695   21          -24.336  
-22          -24.348   23          200.070u 
+INPUT         8.253n  2           248.277u  3          -165.727u 
+4           260.717m  5          -645.025m  6          -316.922m 
+7           652.765m  8          -353.243m  9           300.793m 
+10          839.633m  11         -850.658m  12          -25.000  
+13         -849.046m  14           25.000   15          834.303m 
+OUTPUT      -26.225m  17          -26.225m  18           23.696  
+19           24.347   20           24.348   21          -23.695  
+22          -24.336   23          -24.348   24          200.067u 
 
 
 Operating point for devices of type Diode
@@ -49,31 +49,31 @@ Operating point for devices of type Bipolar Junction Transistors NPN
 ====================================================================
 Instance:                Q1             Q4             Q6
 Using model:        MPS8099         2N5685        MPS8099
-IB                  16.559u       525.618u        14.485u
-IC                   4.004m        35.346m         4.185m
-VBE                644.833m       533.053m       641.106m
-VBC               -261.884m       -24.165        -22.845 
-VCE                906.717m        24.698         23.486 
-BETADC             241.771         67.247        288.940 
-GM                 166.338m         1.879        173.897m
-RPI                  1.717K        59.447          1.978K
+IB                  16.573u       533.017u        14.485u
+IC                   4.008m        36.176m         4.185m
+VBE                644.859m       533.511m       641.106m
+VBC               -260.883m       -24.166        -22.845 
+VCE                905.742m        24.699         23.486 
+BETADC             241.806         67.871        288.939 
+GM                 166.503m         1.923        173.897m
+RPI                  1.716K        58.566          1.978K
 RX                   0.000          0.000          0.000 
-RO                  25.043K         3.513K        29.351K
-CPI                128.796p       135.082n       125.879p
-CMU                  6.119p       596.361p         2.056p
+RO                  25.018K         3.432K        29.351K
+CPI                128.906p       138.088n       125.879p
+CMU                  6.122p       596.358p         2.056p
 CBX                  0.000          0.000          0.000 
 CJS                  0.000          0.000          0.000 
-BETAAC             285.620        111.730        343.974 
-FT               196.223MEG       2.205MEG     216.332MEG
+BETAAC             285.648        112.625        343.973 
+FT               196.254MEG       2.207MEG     216.332MEG
 
 DC Power Terms:
-PD                   3.641m       873.268m        98.306m
+PD                   3.641m       893.811m        98.305m
 PS                   0.000          0.000          0.000 
 
 DC Pin Currents:
-Ib                  16.559u       525.618u        14.485u
-Ic                   4.004m        35.346m         4.185m
-Ie                  -4.020m       -35.872m        -4.200m
+Ib                  16.573u       533.017u        14.485u
+Ic                   4.008m        36.176m         4.185m
+Ie                  -4.024m       -36.709m        -4.200m
 Is                   0.000          0.000          0.000 
 
 Condition:
@@ -85,31 +85,31 @@ Operating point for devices of type Bipolar Junction Transistors PNP
 ====================================================================
 Instance:                Q2             Q3             Q5
 Using model:        MPS8599         2N5684        MPS8599
-IB                  24.876u       165.175u        23.414u
-IC                   3.639m        37.035m         4.190m
-VBE               -652.569m      -496.242m      -651.209m
-VBC                316.390m        24.151         22.856 
-VCE               -968.959m       -24.647        -23.507 
-BETADC             146.301        224.217        178.947 
-GM                 147.361m         2.128        169.748m
-RPI                  1.013K       101.920          1.077K
+IB                  24.827u       161.200u        23.414u
+IC                   3.632m        36.173m         4.190m
+VBE               -652.517m      -495.803m      -651.209m
+VBC                317.170m        24.151         22.856 
+VCE               -969.687m       -24.647        -23.507 
+BETADC             146.297        224.396        178.948 
+GM                 147.066m         2.078        169.748m
+RPI                  1.015K       104.434          1.077K
 RX                   0.000          0.000          0.000 
-RO                  27.564K         3.352K        29.322K
-CPI                130.932p       154.052n       138.195p
-CMU                 11.639p       999.876p         2.613p
+RO                  27.620K         3.432K        29.322K
+CPI                130.726p       150.646n       138.195p
+CMU                 11.635p       999.873p         2.613p
 CBX                  0.000          0.000          0.000 
 CJS                  0.000          0.000          0.000 
-BETAAC             149.205        216.852        182.751 
-FT               164.503MEG       2.184MEG     191.866MEG
+BETAAC             149.207        217.052        182.752 
+FT               164.416MEG       2.181MEG     191.866MEG
 
 DC Power Terms:
-PD                   3.543m       912.904m        98.507m
+PD                   3.538m       891.619m        98.509m
 PS                   0.000          0.000          0.000 
 
 DC Pin Currents:
-Ib                 -24.876u      -165.175u       -23.414u
-Ic                  -3.639m       -37.035m        -4.190m
-Ie                   3.664m        37.200m         4.213m
+Ib                 -24.827u      -161.200u       -23.414u
+Ic                  -3.632m       -36.173m        -4.190m
+Ie                   3.657m        36.334m         4.213m
 Is                   0.000          0.000          0.000 
 
 Condition:
@@ -122,28 +122,28 @@ Operating point for devices of type Resistor
 Instance:                 R1             R2             R3             R4
 Using model:           C6_5%          C6_5%          C6_5%          C6_5%
 DC Power Terms:
-PD                    6.188n         2.742n       132.455u       160.288u
+PD                    6.164n         2.747n       131.920u       160.606u
 
 DC Pin Currents:
-Ir                  -24.876u       -16.559u        -3.639m         4.004m
+Ir                  -24.827u       -16.573u        -3.632m         4.008m
 
 
 Instance:                 R5             R6             R7             R8
 Using model:           C6_5%          C6_5%          C6_5%          C6_5%
 DC Power Terms:
-PD                  686.128u       825.863u        10.156m        11.263m
+PD                  683.361u       827.497u        10.694m        10.694m
 
 DC Pin Currents:
-Ir                    3.664m         4.020m       -31.868m       -33.561m
+Ir                    3.657m         4.024m       -32.702m       -32.702m
 
 
 Instance:                 R9            R10          RS_V3            R11
 Using model:           C6_5%          C6_5%            N\A          C6_5%
 DC Power Terms:
-PD                    2.763u       272.829n        69.169f        28.652u
+PD                    2.841u       259.855n        68.118f         0.000 
 
 DC Pin Currents:
-Ir                 -525.618u       165.175u         8.317u         1.693m
+Ir                 -533.017u       161.200u         8.253u         0.000 
 
 
 Instance:                R12            R13            R14            R15
@@ -164,7 +164,7 @@ DC Power Terms:
 PG                    0.000 
 
 DC Pin Currents:
-ISource               8.317u
+ISource               8.253u
 
 
 
@@ -172,9 +172,9 @@ Operating point for devices of type SPICE Source
 ================================================
 Instance:                V1             V2
 DC Power Terms:
-PG                   1.048          1.090 
+PG                   1.068          1.068 
 
 DC Pin Currents:
-ISource            -41.906m       -43.590m
+ISource            -42.736m       -42.728m
 
 
